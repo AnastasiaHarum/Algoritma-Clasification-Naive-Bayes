@@ -25,10 +25,10 @@ To build a Naive Bayes model that classifies whether a person has diabetes or no
 - **Modeling** — Implemented Gaussian Naive Bayes using sklearn.naive_bayes.GaussianNB().
 - **Evaluation** — Measure accuracy, precision, recall, and F1-score.
 
-🧠 Modeling Results
-Model	Accuracy	Precision	Recall	F1-Score
-|--|--|--|--|--|
-Decision Tree (ID3) |	75%	| 76%	| 75%	| 76% |
-Naive Bayes |	81% |	81%| 	81% |	81% |
+## Modeling Results
+| Model | Accuracy | Precision | Recall | F1-Score |
+|--------|-----------|------------|---------|-----------|
+| **Decision Tree (ID3)** | 75% | 76% | 75% | 76% |
+| **Naive Bayes** | **81%** | **81%** | **81%** | **81%** |
 
-✅ The Naive Bayes model outperformed the Decision Tree (ID3) with a +6% improvement in accuracy, demonstrating stronger generalization and better balance between precision and recall in predicting diabetes cases.
+✅ The **Naive Bayes model** outperformed the **Decision Tree (ID3)** with a **+6% improvement in accuracy**, demonstrating stronger generalization and better balance between precision and recall in predicting diabetes cases.
